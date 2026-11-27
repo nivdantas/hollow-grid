@@ -8,33 +8,31 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Noto+Serif:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="header-grid">
     <div class="header-title">
-      <h1>hollow</h1>
+      hollow
     </div>
-    <div class="header-list">
+    <nav class="header-list" aria-label="Primary">
       <ul>
-        <li><a href="#">about</a></li>
-        <li><a href="#">abyss</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#abyss">abyss</a></li>
       </ul>
-    </div>
+    </nav>
   </header>
   <div class="estrutura">
-    <section class="hollow-icons">
+    <div class="hollow-icons" role="region" aria-label="Hollow Knight character icons" tabindex="0">
       <div><img src="imgs/hollow-icon01.png" alt="Hollow Icon 1"></div>
       <div><img src="imgs/hollow-icon02.png" alt="Hollow Icon 2"></div>
       <div><img src="imgs/hollow-icon03.png" alt="Hollow Icon 3"></div>
       <div><img src="imgs/hollow-icon04.png" alt="Hollow Icon 4"></div>
       <div><img src="imgs/hollow-icon05.png" alt="Hollow Icon 5"></div>
-    </section>
-    <main class="main-grid">
-
-
-      <section class="hollow-content">
+    </div>
+    <main class="main-grid" id="about">
+      <div class="hollow-content">
         <div class="hollow-title">
           <h1>
             Hollow Knight
@@ -66,16 +64,16 @@
 
 
         <img src="imgs/Hollow-3_wb.jpg" alt="Hollow Knight Image 3" class="hollow-img-3 grayscale">
-        <div class="informacoes">
+        <div class="informacoes" id="abyss">
           <p>The Knight is a survivor from the ancient past, a vessel of Void shaped long ago. Its ancestry is confirmed by ancient echoes and the legacy of forgotten kingdoms.</p>
           <p>The Knight is a survivor from ancient times, a vessel of Void shaped long ago. Its ancestry is revealed by echoes, spells, and Hallownest’s lost legacy</p>
         </div>
         <img src="imgs/hollow-4_wb.jpg" alt="Hollow Knight Image 4" class="hollow-img-4 grayscale">
-      </section>
+      </div>
     </main>
     <aside class="grimm-grid">
-      <div><img src="imgs/Grimm-1.jpg" alt="Grimm Nightmare King Image" width="300px" height="300px" class="grayscale"></div>
-      <div><img src="imgs/hornet_wb.jpg" alt="Hornet Image" width="300px" height="300px" class="grayscale"></div>
+      <div><img src="imgs/Grimm-1.jpg" alt="Grimm Nightmare King Image" width="300" height="300" class="grayscale"></div>
+      <div><img src="imgs/hornet_wb.jpg" alt="Hornet Image" width="300" height="300" class="grayscale"></div>
     </aside>
   </div>
   <footer class="footer">moonless niv ©</footer>
